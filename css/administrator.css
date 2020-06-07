@@ -1,0 +1,142 @@
+body {
+    background-color: #3272f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 15px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+.form_label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+td {
+    padding-right: 30px;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 5%;
+    background-color: yellow;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.25s ease-in-out;
+    animation: opacityOn 2s;
+}
+
+.reg:hover {
+    background-color: red;
+    transition: 0.25s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    transition: color 0.25s ease-in-out;
+    animation: opacityOn 2s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.25s ease-in-out;
+}
+
+.adm {
+    text-align: center;
+}
+
+.msg {
+    color: red;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+.adm-voter {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+.adm-party {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+#footer {
+    text-align: center;
+    color: yellow;
+}
+
+
+@keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

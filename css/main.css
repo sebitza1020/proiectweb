@@ -1,0 +1,82 @@
+body {
+    background-color: #3272f3;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: yellow;
+    animation: opacityOn 2s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.reg {
+    margin: 20px auto;
+    padding: 15%;
+    background-color: yellow;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.25s ease-in-out;
+    animation: opacityOn 2s;
+}
+
+.reg:hover {
+    background-color: red;
+    transition: 0.25s ease-in-out;
+}
+
+.adm {
+    text-align: center;
+    padding-top: 10px;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    transition: color 0.25s ease-in-out;
+    animation: opacityOn 2s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.25s ease-in-out;
+}
+
+#footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+}
+
+@keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
